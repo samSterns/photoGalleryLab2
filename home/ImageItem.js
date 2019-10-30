@@ -6,11 +6,11 @@ class ImageItem extends Component {
 
         return /*html*/`
             <li class="image-item">
-                <div class="info-container">
+                <div class="horny-animal">
                     <h2>${image.name}</h2>
-                    <p class="image-type">${image.keyword}</p>
+                    <p class="filte-choices">${image.keyword}</p>
                 </div>
-                <div class="image-container">
+                <div class="horny-animal">
                     <img src="${image.url}" alt="${image.name} image">
                 </div>
                 <p class="year">${image.year}</p>
