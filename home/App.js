@@ -52,8 +52,6 @@ class App extends Component {
     renderHTML() {
         return /*html*/`
             <body>
-                <!-- Header goes here -->
-        
                 <main>
                     <section class="filter">
     
