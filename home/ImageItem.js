@@ -11,7 +11,7 @@ class ImageItem extends Component {
                     <p class="filte-choices">${image.keyword}</p>
                 </div>
                 <div class="horny-animal">
-                    <img src="${image.url}" alt="${image.name} image">
+                    <img src="${image.url}" alt="${image.name}">
                 </div>
                 <p class="year">${image.year}</p>
             </li>

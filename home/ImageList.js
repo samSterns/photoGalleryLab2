@@ -1,5 +1,5 @@
 import Component from '../Component.js';
-import ImageItem from './CatItem.js';
+import ImageItem from './ImageItem.js';
 
 class ImageList extends Component {
 
@@ -12,8 +12,8 @@ class ImageList extends Component {
     onRender(dom) {
         const images = this.props.images;
 
-        images.forEach(cat => {
-            const props = { cat: cat };
+        images.forEach(image => {
+            const props = { image: image };
             const imageItem = new ImageItem(props);
             const imageItemDOM = imageItem.renderDOM();
             dom.appendChild(imageItemDOM);
