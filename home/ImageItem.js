@@ -8,12 +8,12 @@ class ImageItem extends Component {
             <li class="image-item">
                 <div class="horny-animal">
                     <h2>${image.name}</h2>
-                    <p class="filte-choices">${image.keyword}</p>
+                    <p class="filte-choices">${image.title}</p>
                 </div>
                 <div class="horny-animal">
-                    <img src="${image.url}" alt="${image.name}">
+                    <img src="${image.url}" alt="${image.description}">
                 </div>
-                <p class="year">${image.year}</p>
+                <p class="horn:">horns: ${image.horns}</p>
             </li>
         `;
     }
