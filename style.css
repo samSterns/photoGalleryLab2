@@ -1,0 +1,64 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Liu Jian Mao Cao', cursive;
+font-family: 'Raleway', sans-serif; 
+442B48 dark purple
+4B7F52 dark green
+98B06F muted
+B6DC76 
+C64191 pink 
+ */
+ * {
+    box-sizing: border-box;
+    background-color: #98B06F;
+}
+
+#logo {
+    width: 25px;
+    height: 25px;
+}
+
+h1 {
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-size: 5em;
+    justify-content: center;
+    color: #442B48;
+}
+
+select {
+    background-color: #C64191;
+    font-size: 2em;
+}
+
+section {
+    margin: 20px auto;
+    width: 90%;
+    min-width: 650px;
+    justify-content: center;
+}
+
+.horny-animal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    border: solid 5px #C64191;
+    list-style: none;
+    justify-content: space-around;
+    border-radius: 10%;
+    max-width: 30%;
+    max-height: 40%;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+img {
+    max-width: 100px;
+    max-height: 200px;
+}
