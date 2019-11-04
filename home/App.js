@@ -33,7 +33,7 @@ class App extends Component {
                 }
                 else {
                     filteredImages = images.filter(image => {
-                        return image.type === imageType;
+                        return image.keyword === imageType;
                     });
                 }
 
@@ -41,13 +41,13 @@ class App extends Component {
                 imageList.update(updateProps);
             }
         });
-
+        console.log('me');
         const filterImagesDOM = filterImages.renderDOM();
-
         const optionsSection = dom.querySelector('.filter');
         optionsSection.appendChild(filterImagesDOM);
-
+        console.log('too');
     }
+   
 
     renderHTML() {
         return /*html*/`
