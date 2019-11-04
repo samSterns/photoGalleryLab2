@@ -14,16 +14,15 @@ test('renders html from data', assert => {
     };
 
     const expected = `
-        <li class="horny-animal">
-            <h2>${images.title}</h2>
-            <div class="horny-animal">
-                <img src="${images.url}" alt="${images.description}">
-            </div>
-            <div>
-                <h3 class="animal-type">${images.keyword}</h3>
-                <h4 class="horns">${images.horns}</h4>
-            </div>
-        </li>   
+        <li class="image-item">
+        <div class="horny-animal">
+            <p class="filter-choices">${images.title}</p>
+        </div>
+        <div class="horny-animal">
+            <img src="${images.url}" alt="${images.description}">
+        </div>
+        <p class="horn:">horns: ${images.horns}</p>
+    </li>
     `;
 
     // act
